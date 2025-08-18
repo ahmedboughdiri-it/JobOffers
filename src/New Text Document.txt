@@ -1,0 +1,192 @@
+<div class="top-annonce">
+				
+						<div class="left-top-annonce col-md-8">
+							<h1 class="details-header__title "> Auditeur sécurité des systèmes d'informations</h1>
+							<ul class="listing-item__info clearfix inline-block">
+								<li class="listing-item__info--item listing-item__info--item-company"> RH FORMA CONSULT </li>
+																<li class="listing-item__info--item listing-item__info--item-location"> 																											 Tunis, Tunisie									</li>
+																<li class="listing-item__info--item listing-item__info--item-date"> Il'y a 4 semaines</li>
+							</ul>
+						</div>
+						<div class="col-md-4">  </div>
+												
+																																																						<div class="job-top-wrapper">
+							<div class="clearfix">
+								<div class="job-left-side"> 																											<button type="button" class="btn btn-apply btn-primary btn-lg btn-block" href="" data-toggle="modal" data-target="#apply-modal" data-href="						https://www.tanitjobs.com/apply-now/?listing_id=1815916&amp;ajaxRelocate=1
+						" data-applied="" data-title="																		Postuler à Auditeur sécurité des systèmes d'informations chez RH FORMA CONSULT						"> Postuler maintenant </button>
+																											 </div>
+								<div class="job-right-side">
+																										<div class="job-numbers">
+										<div class="applicants-all">
+																				
+										
+										
+										Plus de
+											<div class="applicants-num"> 50 </div>
+											<div class="applicants-desc">candidats												pour <br>
+												<span class="vacancies-num"><strong>1</strong></span> post ouvert<br>
+												 </div>
+											<div class="be-second-to-apply"> <span class="glyphicon glyphicon-arrow-up visible-xs-inline"></span> <span class="glyphicon glyphicon-arrow-left  visible-sm-inline visible-md-inline visible-lg-inline"></span> <span>N'attendez pas pour vous garantir ce poste !</span></div>
+																				</div>
+									</div>
+																		 </div>
+							</div>
+						</div>
+						    						<div class="clear"></div>
+					</div><div class="detail-offre  notfeatured"> 
+						
+						<!-- 				2524 Vues<br />
+				71 candidats<br /> -->
+						<div class="infos_job_details">							
+							
+													
+							
+																		   	
+																								          									<div class="col-md-4">
+										<dl>
+											<dt>Postes vacants:</dt>
+											<dd>1 poste ouvert </dd>
+										</dl>
+									</div>
+										
+										
+											        						   	
+																																			<div class="col-md-4">
+										<dl>
+											<dt>Type d'emploi désiré :</dt>
+											<dd>Temps plein</dd>
+										</dl>
+									</div>
+																	        						   	
+																		   	
+																		   	
+																		   	
+																		   	
+																		   	
+																		   	
+																		   	
+																																			<div class="col-md-4">
+										<dl>
+											<dt>Experience :</dt>
+											<dd>3 à 5 ans</dd>
+										</dl>
+									</div>
+																	        						   	
+																																			<div class="col-md-4">
+										<dl>
+											<dt>Niveau d'étude :</dt>
+											<dd>DESS, DEA, Master, Bac + 5, Grandes Ecoles</dd>
+										</dl>
+									</div>
+																	        						   	
+																																			<div class="col-md-4">
+										<dl>
+											<dt>Rémunération proposée :</dt>
+											<dd>Confidentiel</dd>
+										</dl>
+									</div>
+																	        						   	
+																																			<div class="col-md-4">
+										<dl>
+											<dt>Langue :</dt>
+											<dd>Français, 				Anglais</dd>
+										</dl>
+									</div>
+																	        						   	
+																																			<div class="col-md-4">
+										<dl>
+											<dt>Genre :</dt>
+											<dd>Indifférent</dd>
+										</dl>
+									</div>
+																	        						   	
+																		   	
+																		   	
+							
+							
+							
+							
+							
+							<div class="clear"></div>
+						</div>
+																																																																																				
+												<h3 class="details-body__title">Description de l'emploi</h3>
+						<div class="details-body__content content-text"><p>RH Formaconsult, de service RH et recrutement recrute&nbsp;</p>
+<p>Auditeur sécurité des systèmes d'informations&nbsp;pour l'un de ses clients.</p>
+<p>Vos Missions :</p>
+<p>• Gérer les projets d’implémentation et d’audit des systèmes de management.</p>
+<p>• Elaborer le plan d’audit et sa mise en œuvre.</p>
+<p>• Promouvoir et participer au processus de management des risques.</p>
+<p>• Entretenir les relations avec les auditeurs externes.</p>
+<p>• Effectuer le suivi des recommandations des audits internes et externes.</p>
+<p>• Effectuer le reporting de son activité.</p>
+<p>• Adhérer au système de management intégré de l’entreprise et participer à son amélioration continue</p>
+<p>Vos tâches :</p>
+<p>• Analyser la demande d’audit et de certification du client.</p>
+<p>• Participer aux missions d’audit internes et externes et déterminer les ressources nécessaires</p>
+<p>• Préparer et animer les réunions d’ouverture et de clôture</p>
+<p>• Conduire les entretiens dans le respect des principes d’éthique et de l’intégrité nécessaire pour assurer l’indépendance de la mission d’audit</p>
+<p>• Analyser les informations collectées par entretiens, consultation de documents ou observation, pour détecter la non-conformité éventuelle</p>
+<p>• Rédiger les rapports d’audit et les plans d’actions associés (suites administratives, pénales ou ordinales en cas d’inspection)</p>
+<p>• Vérifier la mise en œuvre et évaluer l’efficacité des actions correctives</p>
+<p>• Conseiller les équipes par rapport à la cybersécurité</p>
+<p>Rémunération et offre :</p>
+<ul>
+<li>Rémunération attractive selon le profil</li>
+<li>Projets internationaux</li>
+<li>Missions à l’échelle internationale</li>
+<li>Environnement de travail jeune et dynamique</li>
+</ul>
+<p><strong>Disponibilité</strong></p>
+<p>ASAP</p></div>
+																																																						
+												<h3 class="details-body__title">Exigences de l'emploi</h3>
+						<div class="details-body__content content-text"><p>Profil recherché :</p>
+<ul>
+<li>Diplôme <em>: </em>master en cybersécurité ou équivalent</li>
+</ul>
+<ul>
+<li>Expérience <em>: </em>minimum 3 ans d’expérience dans un poste similaire</li>
+</ul>
+<p>Compétences :</p>
+<ul>
+<li>Être certifié CISSP ou CIS<a href="https://www.isaca.org/credentialing/cisa">A</a> ou ISO 27001 Lead Auditor ou SSCP ou ECSA</li>
+<li>Maitrise des méthodes d’analyse et d’appréciation des risques (EBIOS/MEHARI).</li>
+<li>Connaissance des méthodologies d’audit, de contrôle interne et des normes</li>
+<li>Forte connaissance des normes ISO/IEC</li>
+<li>Maitrise de la mise en place des systèmes de management intégrés.</li>
+<li>Maitrise de l’élaboration des plans de continuité d’activité.</li>
+<li>Solide connaissance en organisation, processus et procédures internes</li>
+<li>Savoir analyser et réaliser un</li>
+<li>Argumenter ses décisions afin de</li>
+<li>Bon niveau en Français et en Anglais</li>
+</ul></div>
+																																																						
+												<h3 class="details-body__title">Date d'expiration</h3>
+						<div class="details-body__content content-text">22/08/2025</div>
+												<br>
+																																																																																																
+						
+												
+													 <!-- <div class="bootstrap-tagsinput">
+						  <span class="main-label">Mots clés: </span>
+												  <a href="&tags=RH FORMA CONSULT"><span class="tag label label-info" style="font-size: 100%; font-weight: 500;">RH FORMA CONSULT</span> </a>
+												  <a href="&tags=Auditeur s&eacute;curit&eacute; des syst&egrave;mes d&#039;informations"><span class="tag label label-info" style="font-size: 100%; font-weight: 500;">Auditeur s&eacute;curit&eacute; des syst&egrave;mes d&#039;informations</span> </a>
+												  <a href="&tags=s&eacute;curit&eacute;"><span class="tag label label-info" style="font-size: 100%; font-weight: 500;">s&eacute;curit&eacute;</span> </a>
+												  <a href="&tags=cybers&eacute;curit&eacute;"><span class="tag label label-info" style="font-size: 100%; font-weight: 500;">cybers&eacute;curit&eacute;</span> </a>
+												<div class="clear"></div>
+					  </div>-->
+						<div class="bootstrap-tagsinput"> <span class="main-label">Mots clés: </span>
+						
+						
+													  <a href="https://www.tanitjobs.com/jobs/?listing_type%5Bequal%5D=Job&amp;action=search&amp;keywords%5Ball_words%5D=RH FORMA CONSULT&amp;GooglePlace%5Blocation%5D%5Bvalue%5D=&amp;GooglePlace%5Blocation%5D%5Bradius%5D=50"><span class="tag label label-info" style="font-size: 100%; font-weight: 500;">RH FORMA CONSULT</span> </a>
+												  <a href="https://www.tanitjobs.com/jobs/?listing_type%5Bequal%5D=Job&amp;action=search&amp;keywords%5Ball_words%5D=Auditeur sécurité des systèmes d'informations&amp;GooglePlace%5Blocation%5D%5Bvalue%5D=&amp;GooglePlace%5Blocation%5D%5Bradius%5D=50"><span class="tag label label-info" style="font-size: 100%; font-weight: 500;">Auditeur sécurité des systèmes d'informations</span> </a>
+												  <a href="https://www.tanitjobs.com/jobs/?listing_type%5Bequal%5D=Job&amp;action=search&amp;keywords%5Ball_words%5D=sécurité&amp;GooglePlace%5Blocation%5D%5Bvalue%5D=&amp;GooglePlace%5Blocation%5D%5Bradius%5D=50"><span class="tag label label-info" style="font-size: 100%; font-weight: 500;">sécurité</span> </a>
+												  <a href="https://www.tanitjobs.com/jobs/?listing_type%5Bequal%5D=Job&amp;action=search&amp;keywords%5Ball_words%5D=cybersécurité&amp;GooglePlace%5Blocation%5D%5Bvalue%5D=&amp;GooglePlace%5Blocation%5D%5Bradius%5D=50"><span class="tag label label-info" style="font-size: 100%; font-weight: 500;">cybersécurité</span> </a>
+														<div class="clear"></div>
+							</div>
+												
+																																				<div class="clear"></div>
+																																	<button type="button" class="visible-xs-inline btn btn-apply btn-primary btn-lg btn-block" href="" data-toggle="modal" data-target="#apply-modal" data-href="						https://www.tanitjobs.com/apply-now/?listing_id=1815916&amp;ajaxRelocate=1
+						" data-applied="" data-title="																		Postuler à Auditeur sécurité des systèmes d'informations chez RH FORMA CONSULT						"> Postuler maintenant </button>
+																																</div>
