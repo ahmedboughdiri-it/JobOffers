@@ -24,7 +24,7 @@ const job_required_domain = require('./job_required_domain');
     job_experience_level: { type: DataTypes.INTEGER },
     job_min_experience_years: { type: DataTypes.INTEGER },
     job_max_experience_years: { type: DataTypes.INTEGER },
-    job_required_diploma: { type: DataTypes.INTEGER },
+    job_required_diploma: { type: DataTypes.STRING },
     job_required_post_bac_years: { type: DataTypes.INTEGER },
     job_status: {type: DataTypes.STRING},
     job_title: {type: DataTypes.STRING},
