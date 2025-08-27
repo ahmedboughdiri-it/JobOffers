@@ -1,6 +1,11 @@
 const puppeteer = require("puppeteer");
 const Rawjobdata = require("../models/Rawjobdata");
 
+
+//////////////////////
+//////tanitjobs////////
+////////////////////
+
 async function scrapeTanitJobs(listingUrl) {
   const browser = await puppeteer.launch({
     headless: false,
@@ -15,14 +20,11 @@ async function scrapeTanitJobs(listingUrl) {
     Object.defineProperty(navigator, "webdriver", { get: () => false });
   });
 
-  // Go to the listing page
   await page.goto(listingUrl, { waitUntil: "networkidle2" });
   await page.waitForSelector("article.listing-item");
 
-  // Keep track of links already scraped
   const scrapedLinks = new Set();
 
-  // Function to scrape links from the page
   async function scrapeLinksFromPage() {
     const links = await page.$$eval(
       "article.listing-item .media-heading a.link",
@@ -39,7 +41,6 @@ async function scrapeTanitJobs(listingUrl) {
           );
 
           await jobPage.goto(link, { waitUntil: "networkidle2" });
-
           await jobPage.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
           await new Promise(r => setTimeout(r, Math.random() * 2000 + 1000));
 
@@ -60,38 +61,61 @@ async function scrapeTanitJobs(listingUrl) {
     }
   }
 
-  // Scrape initial jobs
+  // Load all jobs on the current page by clicking the bottom "VOIR PLUS"
+let moreJobs = true;
+while (moreJobs) {
   await scrapeLinksFromPage();
 
-  // Handle bottom "VOIR PLUS" button (loads more job listings on same page)
-let hasMoreListings = true;
-while (hasMoreListings) {
-  try {
-    const bottomVoirPlusBtn = await page.$("button.btn.btn__nextpage"); // bottom button
-    if (!bottomVoirPlusBtn) {
-      console.log("No more bottom 'VOIR PLUS' button found.");
-      hasMoreListings = false;
-      break;
-    }
+  const voirPlusBtn = await page.$("button.load-more.btn__nextpage");
+  if (voirPlusBtn) {
+    await voirPlusBtn.evaluate(b => b.scrollIntoView());
+    await voirPlusBtn.click();
+    console.log("Clicked bottom 'VOIR PLUS' button, waiting for more jobs...");
 
-    await bottomVoirPlusBtn.evaluate(b => b.scrollIntoView());
-    await bottomVoirPlusBtn.click();
-    console.log("Clicked bottom 'VOIR PLUS' button, waiting for jobs...");
-
-    // wait for new articles to appear
-    await page.waitForSelector("article.listing-item", { timeout: 5000 }).catch(() => {});
-   await new Promise(r => setTimeout(r, 2500 + Math.random() * 2000));
-
-
-    // scrape new batch
-    await scrapeLinksFromPage();
-
-  } catch (err) {
-    console.error("⚠️ Error while clicking bottom 'VOIR PLUS':", err.message);
-    hasMoreListings = false;
+    // wait for jobs to load (fixed for Puppeteer v20+)
+    await new Promise(r => setTimeout(r, 2500 + Math.random() * 2000));
+  } else {
+    moreJobs = false;
+    console.log("No more bottom 'VOIR PLUS' buttons on this page.");
   }
 }
+
+
+// Pagination
+let hasNextPage = true;
+while (hasNextPage) {
+  const nextPageLink = await page.$eval(
+    "#list_nav a:last-child",
+    a => a.href
+  ).catch(() => null);
+
+  if (nextPageLink) {
+    await page.goto(nextPageLink, { waitUntil: "networkidle2" });
+    console.log("➡️ Moving to next page:", nextPageLink);
+
+    // Click all bottom "VOIR PLUS" on new page
+    moreJobs = true;
+    while (moreJobs) {
+      await scrapeLinksFromPage();
+      const voirPlusBtn = await page.$("button.load-more.btn__nextpage");
+      if (voirPlusBtn) {
+        await voirPlusBtn.evaluate(b => b.scrollIntoView());
+        await voirPlusBtn.click();
+        // <-- fixed wait
+        await new Promise(r => setTimeout(r, 2500 + Math.random() * 2000));
+      } else {
+        moreJobs = false;
+      }
+    }
+  } else {
+    hasNextPage = false;
+    console.log("No more pages in pagination.");
+  }
 }
+
+  await browser.close();
+}
+
 
 
 
@@ -196,6 +220,120 @@ async function scrapeEmploiTunisie(listingUrl) {
   await browser.close();
 }
 
+//////////////////////
+//////keejobs////////
+////////////////////
+
+async function scrapeKeejob(listingUrl) {
+  const browser = await puppeteer.launch({
+    headless: false,
+    args: ["--no-sandbox", "--disable-setuid-sandbox"]
+  });
+
+  const page = await browser.newPage();
+  await page.setUserAgent(
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+  );
+  await page.evaluateOnNewDocument(() => {
+    Object.defineProperty(navigator, "webdriver", { get: () => false });
+  });
+
+  await page.goto(listingUrl, { waitUntil: "networkidle2" });
+
+  const scrapedLinks = new Set();
+
+  // Scrape links from one page
+  async function scrapeLinksFromPage() {
+    const links = await page.$$eval("article h2 a", els =>
+      els.map(el => el.href)
+    );
+
+    for (const link of links) {
+      if (link && !scrapedLinks.has(link)) {
+        scrapedLinks.add(link);
+
+        try {
+          const jobPage = await browser.newPage();
+          await jobPage.setUserAgent(
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+          );
+
+          await jobPage.goto(link, { waitUntil: "networkidle2" });
+          await jobPage.evaluate(() =>
+            window.scrollTo(0, document.body.scrollHeight)
+          );
+          await new Promise(r => setTimeout(r, Math.random() * 2000 + 1000));
+
+          // Inside page.evaluate()
+const html = await jobPage.evaluate(() => {
+  const title = document.querySelector(".page-title")?.outerHTML || "";
+
+  // Example: find the "Entreprise" block by scanning h2s
+  const entrepriseHeading = [...document.querySelectorAll("h2")]
+    .find(h => h.textContent.includes("Entreprise"));
+  const entrepriseBlock = entrepriseHeading
+    ? entrepriseHeading.parentElement.outerHTML
+    : "";
+
+  const details = document.querySelector(".job-description")?.outerHTML || "";
+
+  return title + entrepriseBlock + details;
+});
 
 
-module.exports = { scrapeTanitJobs, scrapeEmploiTunisie };
+          await Rawjobdata.create({ raw_html: html, url: link });
+          console.log(`✅ Inserted job from ${link}`);
+
+          await jobPage.close();
+        } catch (err) {
+          console.error(`❌ Error scraping ${link}: ${err.message}`);
+        }
+      }
+    }
+  }
+
+  // Scrape first page
+  await scrapeLinksFromPage();
+
+  // Pagination
+let hasNextPage = true;
+
+while (hasNextPage) {
+  try {
+    // Find the "Suivant" link
+    const nextPageUrl = await page.$eval(
+      'nav[aria-label="Pagination"] a',
+      links => {
+        const next = Array.from(document.querySelectorAll('nav[aria-label="Pagination"] a')).find(a => {
+          const sr = a.querySelector('span.sr-only');
+          return sr && sr.textContent.trim() === 'Suivant';
+        });
+        return next ? next.href : null;
+      }
+    );
+
+    if (!nextPageUrl) {
+      console.log("🚫 No more pages.");
+      hasNextPage = false;
+      break;
+    }
+
+    console.log("➡️ Going to next page:", nextPageUrl);
+    await page.goto(nextPageUrl, { waitUntil: 'networkidle2' });
+
+    // Scrape all links on the new page
+    await scrapeLinksFromPage();
+  } catch (err) {
+    console.error("⚠️ Error while going to next page:", err.message);
+    hasNextPage = false;
+  }
+}
+
+
+
+  await browser.close();
+}
+
+
+
+module.exports = { scrapeTanitJobs, scrapeEmploiTunisie , scrapeKeejob };

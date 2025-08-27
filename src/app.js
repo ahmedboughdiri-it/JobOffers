@@ -13,24 +13,29 @@ require('./models/job_required_domain');
 require('./models/job_required_skills');
 require('./models/Rawjobdata');
 
-const { scrapeJobsFromUrl,getJobById ,scrapeJobsFromEmploiTunisie} = require("./controllers/jobController");
+const { scrapeJobsFromUrl,getJobById ,scrapeJobsFromEmploiTunisie,scrapeJobsFromKeejobs} = require("./controllers/jobController");
 const { parseAllJobs,parseEmploiTunisieJobs} = require("./services/parseJobHtml");
 
 const app = express();
 app.use(express.json());
 //app.use(express.urlencoded({ extended: true })); // parses URL-encoded bodies
 
-// Test route
+// //////////////Test route
 app.get('/', (req, res) => {
   res.send('Job Scraper API running...');
 });
-// Route for scraping
+// //////////Route for scraping/////////
 app.post("/scrape", scrapeJobsFromUrl);
 
 app.post("/scrapeEmploiTn",scrapeJobsFromEmploiTunisie);
 
+app.post("/scrapekeejob",scrapeJobsFromKeejobs);
+
 app.get('/job/:id', getJobById); 
 
+
+
+/////////parsing////////
 app.post('/parse-jobs', async (req, res) => {
   try {
     await parseAllJobs();

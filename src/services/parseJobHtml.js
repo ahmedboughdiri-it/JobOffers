@@ -6,6 +6,9 @@ const job_required_skills = require('../models/job_required_skills');
 const job_required_specialties = require('../models/job_required_specialties');
 const job_required_domain = require('../models/job_required_domain');
 
+//////////////////////////////
+////////parsing for tanitjobs//
+////////////////////////////////
 async function parseAllJobs() {
   // Fetch all raw jobs
   const rawJobs = await Rawjobdata.findAll();
@@ -108,6 +111,26 @@ async function parseAllJobs() {
   console.log('🚀 All TanitJobs jobs parsed successfully');
 }
 
+//////////////////////////////////
+///parsing for emploi tunisie////
+////////////////////////////////
+
+
+// Helper function to map experience years to level
+function getExperienceLevel(years) {
+  if (years === null || years === undefined) return null;
+
+  if (years <= 3) return 'Junior';       // includes 0–3 years
+  if (years > 3 && years <= 5) return 'Mid';   // 3–5 years
+  if (years > 5 && years <= 8) return 'Senior'; // 5–8 years
+  if (years > 8 && years <= 12) return 'Lead';  // 8–12 years
+  if (years > 12 && years <= 15) return 'Architect'; // 12–15 years
+  return 'Management'; // 15+ years
+}
+
+
+
+
 async function parseEmploiTunisieJobs() {
   // Fetch all raw jobs
   const rawJobs = await Rawjobdata.findAll();
@@ -126,12 +149,53 @@ async function parseEmploiTunisieJobs() {
       // --- Extract Job description ---
       const jobDescription = $('.job-description').first().text().trim();
 
-      // --- Extract city & country ---
-      const city = $('.arrow-list li:contains("Ville") span').first().text().trim() ||
-                   $('.withicon.location-dot span').first().text().trim();
-      const region = $('.arrow-list li:contains("Région") span').first().text().trim();
-      const address_city = city || region || '';
-      const address_country_label = 'Tunisie'; // since all jobs are in Tunisia
+
+
+
+
+// --- Extract city & region ---
+let region = $('.arrow-list li:contains("Région") span').first().text().trim();
+let city = $('.arrow-list li:contains("Ville") span').first().text().trim();
+
+// Handle Ville if it's remote or empty
+if (!city || city.toLowerCase().includes('travail')) {
+    city = ''; // ignore remote indicators
+}
+
+// Determine address_city
+let address_city = city || region || '';
+// Normalize long region strings to "Tunis"
+if (address_city.includes('-') && address_city.split('-').length > 3) {
+    address_city = 'Tunis';
+}
+
+// Always use the full region string as address_city_label
+let address_city_label = region;
+
+// Set default country label and code for Tunisia
+let address_country_label = 'Tunisie';
+let address_country_code = 'TN';
+
+// Override country if city indicates foreign location
+const foreignCities = {
+    'Paris': { label: 'France', code: 'FR' },
+    'France': { label: 'France', code: 'FR' }
+};
+
+if (city && foreignCities[city]) {
+    address_country_label = foreignCities[city].label;
+    address_country_code = foreignCities[city].code;
+}
+
+console.log({
+    address_city,
+    address_city_label,
+    address_country_label,
+    address_country_code
+});
+
+
+
 
       // --- Extract experience ---
       const expText = $('.arrow-list li:contains("Niveau d\'expérience") span').first().text().trim();
@@ -143,6 +207,10 @@ async function parseEmploiTunisieJobs() {
           job_max_experience_years = parseInt(matches[1] || matches[0]);
         }
       }
+
+      // Map experience years to experience level
+const job_experience_level = getExperienceLevel(job_min_experience_years || job_max_experience_years);
+
 
 
       // --- Extract diploma ---
@@ -169,16 +237,23 @@ console.log(job_required_post_bac_years); // Should print 3
       const workType = $('.arrow-list li:contains("Type de contrat") span').first().text().trim();
 
       // --- Extract salary ---
-      const salaryText = $('.arrow-list li:contains("Salaire proposé") span').first().text().trim();
-      let salary_min = null, salary_max = null, salary_currency = null;
-      if (salaryText) {
-        const nums = salaryText.match(/\d+/g);
-        if (nums) {
-          salary_min = parseInt(nums[0]);
-          salary_max = parseInt(nums[1] || nums[0]);
-        }
-        salary_currency = 'TND';
-      }
+const salaryText = $('.arrow-list li:contains("Salaire proposé") span').first().text().trim();
+let salary_min = null, salary_max = null, salary_currency = null;
+
+if (salaryText) {
+    // Remove non-digit characters except for the range separator "-"
+    const nums = salaryText.match(/[\d\s]+/g); 
+    if (nums) {
+        // Remove spaces inside numbers and convert to integers
+        salary_min = parseInt(nums[0].replace(/\s/g, ''), 10);
+        salary_max = parseInt((nums[1] || nums[0]).replace(/\s/g, ''), 10);
+    }
+    // Set currency if present
+    salary_currency = 'TND';
+}
+
+console.log({ salary_min, salary_max, salary_currency });
+
 
       // --- Extract Company ---
       const companyName = $('.card-block-company h3 a').first().text().trim();
@@ -193,9 +268,11 @@ console.log(job_required_post_bac_years); // Should print 3
         job_title: jobTitle,
         job_description: jobDescription,
         address_city,
+        address_country_code,
         address_country_label,
         job_min_experience_years,
         job_max_experience_years,
+         job_experience_level,
         job_required_diploma: diplomaText,
         job_required_post_bac_years,
         work_type_table: workType,
@@ -224,6 +301,10 @@ console.log(job_required_post_bac_years); // Should print 3
   console.log('🚀 All EmploiTunisie jobs parsed successfully');
 }
 
+
+///////////////////////////////////////////
+////parsing for keejob////////////////////
+/////////////////////////////////////////
 
 
 

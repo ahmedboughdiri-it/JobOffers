@@ -1,5 +1,6 @@
 const { scrapeTanitJobs } = require("../services/jobScraperService");
 const {scrapeEmploiTunisie} = require("../services/jobScraperService");
+const {scrapeKeejob} = require("../services/jobScraperService");
 const Joboffer = require("../models/Joboffer");
 const Company = require("../models/Company");
 const job_required_skills = require("../models/job_required_skills");
@@ -40,6 +41,24 @@ async function scrapeJobsFromEmploiTunisie(req,res) {
   }
 }
 
+
+async function scrapeJobsFromKeejobs(req,res) {
+  try {
+    const {url} = req.body;//
+    if (!url){
+      return res.status(400).json({error: "Missing URL"});
+    }
+  
+  await scrapeKeejob(url);
+  res.json({message:"Scrapping from Keejob completed"});
+  }catch (error){
+    console.error("scraping error:",error);
+    res.status(500).json({error: "Something went wrong while scraping"});
+  }
+}
+
+
+
 const getJobById = async (req, res) => {
   const { id } = req.params;
   try {
@@ -64,4 +83,4 @@ const getJobById = async (req, res) => {
 };
 
 
-module.exports = { scrapeJobsFromUrl ,getJobById, scrapeJobsFromEmploiTunisie};
+module.exports = { scrapeJobsFromUrl ,getJobById, scrapeJobsFromEmploiTunisie , scrapeJobsFromKeejobs};
