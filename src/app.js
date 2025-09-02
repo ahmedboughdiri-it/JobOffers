@@ -14,7 +14,7 @@ require('./models/job_required_skills');
 require('./models/Rawjobdata');
 
 const { scrapeJobsFromUrl,getJobById ,scrapeJobsFromEmploiTunisie,scrapeJobsFromKeejobs} = require("./controllers/jobController");
-const { parseAllJobs,parseEmploiTunisieJobs} = require("./services/parseJobHtml");
+const { parseAllJobs,parseEmploiTunisieJobs,parseKeejobJobs} = require("./services/parseJobHtml");
 
 const app = express();
 app.use(express.json());
@@ -53,6 +53,16 @@ app.post('/parse-emploitunisie',async(req,res)=> {
     res.status(500).json({message:err.message});
   }
 });
+
+app.post('/parse-keejob',async(req,res)=> {
+  try{
+    await parseKeejobJobs();
+    res.json({message:'all jobs parsed successfully'});
+  }catch(err){
+    res.status(500).json({message:err.message});
+  }
+});
+
 
 
 // Sync DB and start server

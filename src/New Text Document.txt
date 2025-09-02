@@ -1,281 +1,626 @@
-<div class="page-title">
-        <div class="container">
-                          <h1 class="text-center">Lead Développeur Java JEE (H/F)</h1>
-                                                  <div class="block-links">
-                  <a href="#form-express-application" class="btn btn-primary" onclick="ga('send', 'event', {
-                        eventCategory: 'Button',
-                        eventAction: 'click',
-                        eventLabel: 'Postulate',
-                        eventValue: 1,
-                        dimension1: '183952'
-                      });">Postuler</a>              </div>
-                                    <div class="page-application-details">
-                                          <p>Publiée le 04.06.2025</p>
-              <div class="page-application-media">
-                  <p>
-                      Partagez cette annonce                  </p>
-                  <ul class="a2a_kit a2a_kit_size_32 a2a_default_style" style="line-height: 32px;">
-                      <li><a class="a2a_button_linkedin" target="_blank" rel="nofollow noopener" href="/#linkedin"><img src="/sites/all/themes/africawork3/img/icon/linkedin.svg" alt="Linkedin"></a></li>
-                      <li><a class="a2a_button_facebook" target="_blank" rel="nofollow noopener" href="/#facebook"><img src="/sites/all/themes/africawork3/img/icon/facebook.svg" alt="Facebook"></a></li>
-                      <li><a class="a2a_button_twitter" target="_blank" rel="nofollow noopener" href="/#twitter"><img src="/sites/all/themes/africawork3/img/icon/x-logo.svg" alt="X"></a></li>
-                  <div style="clear: both;"></div></ul>
-                  <script async="" src="https://static.addtoany.com/menu/page.js"></script>
-              </div>
-                    </div>
-    </div>
-</div><div class="page-application-wrapper " data-nid="183952">
-        <div class="container-flex">
-            <div class="card card-block card-block-summary">
-                                  <h2 class="card-block-title">Résumé du poste</h2>
-                                <div class="card-block-content">
-                    <ul>
-                                                  <li class="withicon suitcase"><span><div class="field field-name-field-offre-metiers field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even">Informatique, nouvelles technologies</div></div></div></span></li>
-                                                                          <li class="withicon location-dot"><span>Ariana - Béja - Ben Arous - Bizerte - Gabès - Gafsa - Jendouba - Kairouan - Kasserine - Kébili - Kef - Mahdia - Manouba - Médenine - Monastir - Nabeul - Sfax - Sidi Bouzid - Siliana - Sousse - Tataouine - Tozeur - Tunis - Zaghouan - International</span></li>
-                                                                                                  <li class="withicon chart"><span>Expérience entre 5 ans et 10 ans</span></li>
-                                                                          <li class="withicon graduation-cap"><span>Bac+3</span></li>
-                                                                          <li class="withicon file-signature"><span>CDI - Freelance</span></li>
-                                            </ul>
-                                    </div>
-            </div>
-            <!-- Company Block -->
-                          <div class="card card-block card-block-summary">
-                                      <h2 class="card-block-title">Entreprise</h2>
-                                    <div class="card-block-content">
-                      <div class="card-block-company">
-                          <ul>
-                              <li>
-                                  <h3><a href="/recruteur/98016">AFRICASHORE</a></h3>
-                              </li>
-                                                              <li><strong>Secteur d´activité</strong> : <span><div class="field field-name-field-entreprise-secteur field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even">Informatique, SSII, Internet</div><div class="field-item odd">Intérim, recrutement</div></div></div></span></li>
-                                                                                            <li>
-                                    <strong>Site Internet</strong> :
-                                    <span>
-                                        <a href="https://www.africashore.com/" rel="nofollow" target="_blank" title="AFRICASHORE">https://www.africashore.com/</a>                                    </span>
-                                </li>
-                                                            <li><strong>Offres d´emploi</strong> : <span><a href="/recherche-jobs-tunisie?fq%5B0%5D=is_recruiter_nid%3A98016">Voir toutes nos annonces</a></span></li>
-                              <li class="company-description">
-                                  <strong>Description de l'entreprise</strong>:
-                                  <div class="truncated">
-                                      <p class="truncated-text"> AFRICASHORE is an IT offshoring&nbsp;platform connecting&nbsp;IT experts&nbsp;and freelancers based in Africa to companies&nbsp;in&nbsp;Africa,... <a href="/recruteur/98016">lire la suite</a></p>
-                                  </div>
-                              </li>
-                          </ul>
-                          <picture>
-                              <img typeof="foaf:Image" src="https://www.emploitunisie.com/sites/emploitunisie.com/files/styles/medium/public/logo/imgpsh_fullsize_anim_1.png?itok=qhzbb8GO" width="" height="110px" alt="">                          </picture>
-                      </div>
-                  </div>
-              </div>
-                    </div>
-        <!-- Job Ad Details Block -->
-        <div class="card card-block mt-3">
-            <article class="page-application-content">
-                <h2 class="card-block-title">Détails de l'annonce</h2>
-                <div class="card-block-content">
-                    <section>
-                        <h3 class="job-title">Poste proposé : Lead Développeur Java JEE (H/F)</h3>
-                        <div class="job-description"><p>Nous recherchons un <strong>Lead Développeur Java JEE (H/F)</strong> pour notre client, une société multinationale dans le domaine des services informatiques.<br>
-&nbsp;<br>
-<strong>Poste &amp; Mission :</strong><br>
-&nbsp;<br>
-Intégré-e dans la Direction R&amp;D au sein du service d’Architecture Technique des équipes de Développement, en charge de domaines techniques précis, votre périmètre comprend.<br>
-&nbsp;</p>
-<ul>
-<li>Conception et développements techniques sur des technologies java/JEE ;</li>
-<li>Evolution et maintenance du Framework du progiciel ;</li>
-<li>Instruction et débogage des problèmes techniques avancés ;</li>
-<li>Participation au chiffrage et à la conception des composants techniques ;</li>
-<li>Support niveau 3 aux développeurs métier sur leurs questions liées au Framework ;</li>
-<li>Instruction des problèmes de performances Java/Base de données/réseau ;</li>
-<li>Participation à la démarche qualité ;</li>
-<li>Réalisation de prototypes.</li>
-<li>Votre parcours d’intégration débutera par une formation à notre solution et aux métiers de l’assurance.</li>
-</ul>
-</div>
-                    </section>
-                    <section>
-                        <h3 class="job-title">Profil recherché pour le poste : Lead Développeur Java JEE (H/F)</h3>
-                        <div class="job-qualifications"><ul>
-<li><strong>Formation supérieure en informatique (minimum Bac+3) ;</strong></li>
-<li>Vous maîtrisez le langage Java et l’écosystème JEE ;</li>
-<li>Vous avez une bonne pratique des langages HTML 5, Javascript, CSS ;</li>
-<li>La connaissance des domaines suivants est un plus : Eclipse, Jenkins, UML, Frameworks Spring/ hibernate/ JUnit, maven, play! Framework, méthodologie Agile ;</li>
-<li>Projet en Opensource&nbsp;;</li>
-<li>Vous maîtriser les architecture complexe et êtes familier des projets d’intégration d’envergure ;</li>
-<li>Vous êtes reconnu pour votre autonomie, vos capacités d’analyse et vos capacités d’apprentissage.</li>
-</ul>
-<p>&nbsp;<br>
-Localisation : Tout cocher.<br>
-&nbsp;<br>
-Avantages :</p>
-<ul>
-<li>Votre parcours d’intégration débutera par une formation certifiante à notre solution et aux métiers de l’assurance.</li>
-<li>Ce poste vous offre la possibilité de faire du télétravail afin de travailler dans un environnement stimulant et innovant, Les perspectives d’évolution sont diverses : expertise dans un domaine fonctionnel, en architecture, en pilotage de projet, sur des sujets techniques et plus larges encore au sein du Groupe.</li>
-</ul>
-<p>&nbsp;<br>
-Métier : Informatique, nouvelles technologies.<br>
-&nbsp;<br>
-Secteur d´activité :</p>
-<ul>
-<li>Informatique, SSII, Internet.</li>
-<li>Ingénierie, études développement.</li>
-</ul>
-<p>&nbsp;<br>
-Type de contrat : CDI.<br>
-&nbsp;<br>
-Région : Tout cocher.<br>
-&nbsp;<br>
-Niveau d'expérience : <strong>Expérience entre 5 ans et 10 ans.</strong><br>
-&nbsp;<br>
-Niveau d'études : <strong>Bac+3.</strong><br>
-&nbsp;<br>
-Langues exigées : Anglais › Intermédiaire.<br>
-&nbsp;<br>
-Nombre de poste(s) : 10.</p>
-</div>
-                    </section>
-                    <section>
-                        <h3 class="job-title">Critères de l'annonce pour le poste : Lead Développeur Java JEE (H/F)</h3>
-                        <ul class="arrow-list">
-                                                          <li>
-                                  <strong>Métier</strong> : 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <span>Informatique, nouvelles technologies</span>                                                                                                                                                                                                                                                                                                                      </li>
-                                                                                      <li>
-                                  <strong>Secteur d´activité</strong> : 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <span>Informatique, SSII, Internet</span>                                                                                                                                                                          </li>
-                                                                                      <li><strong>Type de contrat</strong> : <span>CDI - Freelance</span></li>
-                                                                                      <li><strong>Région</strong> : <span>Ariana - Béja - Ben Arous - Bizerte - Gabès - Gafsa - Jendouba - Kairouan - Kasserine - Kébili - Kef - Mahdia - Manouba - Médenine - Monastir - Nabeul - Sfax - Sidi Bouzid - Siliana - Sousse - Tataouine - Tozeur - Tunis - Zaghouan - International</span></li>
-                                                                                      <li><strong>Ville</strong> : <span>/ Travail En Remote</span></li>
-                            
-                                                                                      <li><strong>Niveau d'expérience</strong> : <span>Expérience entre 5 ans et 10 ans</span></li>
-                                                                                      <li><strong>Niveau d'études</strong> : <span>Bac+3</span></li>
-                                                        
-                                                          <li><strong>Nombre de poste(s)</strong> : <span>10</span></li>
-                            
-                                                                                </ul>
-                                                  <ul class="skills">
-                                                              <li>CSS</li>
-                                                              <li>UML</li>
-                                                              <li>JAVASCRIPT</li>
-                                                              <li>JAVA</li>
-                                                              <li>JAVA JEE</li>
-                                                              <li>HTML</li>
-                                                              <li>MAVEN</li>
-                                                              <li>JUNIT</li>
-                                                              <li>HIBERNATE</li>
-                                                              <li>JENKINS</li>
-                                                              <li>SPRING</li>
-                                                              <li>AGILE</li>
-                                                              <li>ECLIPSE</li>
-                                                        </ul>
-                                            </section>
-                    <div class="page-application-note">
-                                                  <em class="text-md">Soyez vigilant ! N'envoyez pas d'argent à un employeur potentiel. Ne versez aucune somme d'argent en échange d'un contrat de travail potentiel ou pour suivre une formation préalable à l'embauche.<br>Merci de signaler toute irrégularité en utilisant le formulaire de contact candidat et en sélectionnant l'objet "Signaler une annonce d'emploi".</em>
-                                            </div>
-                </div>
-            </article>
-        </div>
-    </div><article class="page-application-content">
-                <h2 class="card-block-title">Détails de l'annonce</h2>
-                <div class="card-block-content">
-                    <section>
-                        <h3 class="job-title">Poste proposé : Lead Développeur Java JEE (H/F)</h3>
-                        <div class="job-description"><p>Nous recherchons un <strong>Lead Développeur Java JEE (H/F)</strong> pour notre client, une société multinationale dans le domaine des services informatiques.<br>
-&nbsp;<br>
-<strong>Poste &amp; Mission :</strong><br>
-&nbsp;<br>
-Intégré-e dans la Direction R&amp;D au sein du service d’Architecture Technique des équipes de Développement, en charge de domaines techniques précis, votre périmètre comprend.<br>
-&nbsp;</p>
-<ul>
-<li>Conception et développements techniques sur des technologies java/JEE ;</li>
-<li>Evolution et maintenance du Framework du progiciel ;</li>
-<li>Instruction et débogage des problèmes techniques avancés ;</li>
-<li>Participation au chiffrage et à la conception des composants techniques ;</li>
-<li>Support niveau 3 aux développeurs métier sur leurs questions liées au Framework ;</li>
-<li>Instruction des problèmes de performances Java/Base de données/réseau ;</li>
-<li>Participation à la démarche qualité ;</li>
-<li>Réalisation de prototypes.</li>
-<li>Votre parcours d’intégration débutera par une formation à notre solution et aux métiers de l’assurance.</li>
-</ul>
-</div>
-                    </section>
-                    <section>
-                        <h3 class="job-title">Profil recherché pour le poste : Lead Développeur Java JEE (H/F)</h3>
-                        <div class="job-qualifications"><ul>
-<li><strong>Formation supérieure en informatique (minimum Bac+3) ;</strong></li>
-<li>Vous maîtrisez le langage Java et l’écosystème JEE ;</li>
-<li>Vous avez une bonne pratique des langages HTML 5, Javascript, CSS ;</li>
-<li>La connaissance des domaines suivants est un plus : Eclipse, Jenkins, UML, Frameworks Spring/ hibernate/ JUnit, maven, play! Framework, méthodologie Agile ;</li>
-<li>Projet en Opensource&nbsp;;</li>
-<li>Vous maîtriser les architecture complexe et êtes familier des projets d’intégration d’envergure ;</li>
-<li>Vous êtes reconnu pour votre autonomie, vos capacités d’analyse et vos capacités d’apprentissage.</li>
-</ul>
-<p>&nbsp;<br>
-Localisation : Tout cocher.<br>
-&nbsp;<br>
-Avantages :</p>
-<ul>
-<li>Votre parcours d’intégration débutera par une formation certifiante à notre solution et aux métiers de l’assurance.</li>
-<li>Ce poste vous offre la possibilité de faire du télétravail afin de travailler dans un environnement stimulant et innovant, Les perspectives d’évolution sont diverses : expertise dans un domaine fonctionnel, en architecture, en pilotage de projet, sur des sujets techniques et plus larges encore au sein du Groupe.</li>
-</ul>
-<p>&nbsp;<br>
-Métier : Informatique, nouvelles technologies.<br>
-&nbsp;<br>
-Secteur d´activité :</p>
-<ul>
-<li>Informatique, SSII, Internet.</li>
-<li>Ingénierie, études développement.</li>
-</ul>
-<p>&nbsp;<br>
-Type de contrat : CDI.<br>
-&nbsp;<br>
-Région : Tout cocher.<br>
-&nbsp;<br>
-Niveau d'expérience : <strong>Expérience entre 5 ans et 10 ans.</strong><br>
-&nbsp;<br>
-Niveau d'études : <strong>Bac+3.</strong><br>
-&nbsp;<br>
-Langues exigées : Anglais › Intermédiaire.<br>
-&nbsp;<br>
-Nombre de poste(s) : 10.</p>
-</div>
-                    </section>
-                    <section>
-                        <h3 class="job-title">Critères de l'annonce pour le poste : Lead Développeur Java JEE (H/F)</h3>
-                        <ul class="arrow-list">
-                                                          <li>
-                                  <strong>Métier</strong> : 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <span>Informatique, nouvelles technologies</span>                                                                                                                                                                                                                                                                                                                      </li>
-                                                                                      <li>
-                                  <strong>Secteur d´activité</strong> : 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          <span>Informatique, SSII, Internet</span>                                                                                                                                                                          </li>
-                                                                                      <li><strong>Type de contrat</strong> : <span>CDI - Freelance</span></li>
-                                                                                      <li><strong>Région</strong> : <span>Ariana - Béja - Ben Arous - Bizerte - Gabès - Gafsa - Jendouba - Kairouan - Kasserine - Kébili - Kef - Mahdia - Manouba - Médenine - Monastir - Nabeul - Sfax - Sidi Bouzid - Siliana - Sousse - Tataouine - Tozeur - Tunis - Zaghouan - International</span></li>
-                                                                                      <li><strong>Ville</strong> : <span>/ Travail En Remote</span></li>
-                            
-                                                                                      <li><strong>Niveau d'expérience</strong> : <span>Expérience entre 5 ans et 10 ans</span></li>
-                                                                                      <li><strong>Niveau d'études</strong> : <span>Bac+3</span></li>
-                                                        
-                                                          <li><strong>Nombre de poste(s)</strong> : <span>10</span></li>
-                            
-                                                                                </ul>
-                                                  <ul class="skills">
-                                                              <li>CSS</li>
-                                                              <li>UML</li>
-                                                              <li>JAVASCRIPT</li>
-                                                              <li>JAVA</li>
-                                                              <li>JAVA JEE</li>
-                                                              <li>HTML</li>
-                                                              <li>MAVEN</li>
-                                                              <li>JUNIT</li>
-                                                              <li>HIBERNATE</li>
-                                                              <li>JENKINS</li>
-                                                              <li>SPRING</li>
-                                                              <li>AGILE</li>
-                                                              <li>ECLIPSE</li>
-                                                        </ul>
-                                            </section>
-                    <div class="page-application-note">
-                                                  <em class="text-md">Soyez vigilant ! N'envoyez pas d'argent à un employeur potentiel. Ne versez aucune somme d'argent en échange d'un contrat de travail potentiel ou pour suivre une formation préalable à l'embauche.<br>Merci de signaler toute irrégularité en utilisant le formulaire de contact candidat et en sélectionnant l'objet "Signaler une annonce d'emploi".</em>
-                                            </div>
-                </div>
-            </article>
+
+///////////keejob//////////////
+{
+    "id": 3161,
+    "address_city": "Nabeul",
+    "address_country_code": "TN",
+    "address_country_label": "Tunisie",
+    "job_description": "Nous recrutons un Développeur Full Stack !Vous êtes passionné par le développement web, curieux des dernières technologies, et vous aimez transformer des idées en solutions concrètes ? Rejoignez notre équipe et contribuez à des projets stimulants, de la c",
+    "job_posting_date": "2025-09-02T10:52:56.000Z",
+    "job_expiry_date": "2025-09-02T10:52:56.000Z",
+    "job_experience_level": "Junior",
+    "job_min_experience_years": 1,
+    "job_max_experience_years": 2,
+    "job_required_diploma": "Bac + 5",
+    "job_required_post_bac_years": 5,
+    "job_status": null,
+    "job_title": "Développeur Web- Nabeul",
+    "salary_currency": null,
+    "salary_min": null,
+    "salary_max": null,
+    "work_type_code": "FT",
+    "work_type_table": "Full Time",
+    "createdAt": "2025-09-02T10:52:56.000Z",
+    "updatedAt": "2025-09-02T10:52:56.000Z",
+    "company_id": 176,
+    "Company": {
+        "id": 176,
+        "company_name": "Unknown",
+        "createdAt": "2025-09-02T09:42:10.000Z",
+        "updatedAt": "2025-09-02T09:42:10.000Z"
+    },
+    "job_required_skills": [
+        {
+            "id": 1748,
+            "required_level": 1,
+            "skill_name": "R",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:55.000Z",
+            "updatedAt": "2025-09-02T10:52:55.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "skill_id": 1748
+            }
+        },
+        {
+            "id": 1751,
+            "required_level": 1,
+            "skill_name": "MySQL",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:55.000Z",
+            "updatedAt": "2025-09-02T10:52:55.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "skill_id": 1751
+            }
+        },
+        {
+            "id": 1753,
+            "required_level": 1,
+            "skill_name": "JavaScript",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "skill_id": 1753
+            }
+        },
+        {
+            "id": 1754,
+            "required_level": 1,
+            "skill_name": "C",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "skill_id": 1754
+            }
+        },
+        {
+            "id": 1755,
+            "required_level": 1,
+            "skill_name": "PHP",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "skill_id": 1755
+            }
+        },
+        {
+            "id": 1756,
+            "required_level": 1,
+            "skill_name": "React",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "skill_id": 1756
+            }
+        },
+        {
+            "id": 1757,
+            "required_level": 1,
+            "skill_name": "Angular",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "skill_id": 1757
+            }
+        },
+        {
+            "id": 1758,
+            "required_level": 1,
+            "skill_name": "Vue",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "skill_id": 1758
+            }
+        },
+        {
+            "id": 1759,
+            "required_level": 1,
+            "skill_name": "Nuxt",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "skill_id": 1759
+            }
+        },
+        {
+            "id": 1760,
+            "required_level": 1,
+            "skill_name": "Node.js",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "skill_id": 1760
+            }
+        },
+        {
+            "id": 1761,
+            "required_level": 1,
+            "skill_name": "MariaDB",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "skill_id": 1761
+            }
+        },
+        {
+            "id": 1762,
+            "required_level": 1,
+            "skill_name": "PostgreSQL",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "skill_id": 1762
+            }
+        },
+        {
+            "id": 1763,
+            "required_level": 1,
+            "skill_name": "RESTful",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "skill_id": 1763
+            }
+        },
+        {
+            "id": 1764,
+            "required_level": 1,
+            "skill_name": "Git",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "skill_id": 1764
+            }
+        }
+    ],
+    "job_required_specialties": [
+        {
+            "id": 12,
+            "specialty_name": "Full-Stack Development",
+            "createdAt": "2025-09-02T10:52:55.000Z",
+            "updatedAt": "2025-09-02T10:52:55.000Z",
+            "JobofferSpecialty": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "specialty_id": 12
+            }
+        },
+        {
+            "id": 13,
+            "specialty_name": "Backend Development",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSpecialty": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "specialty_id": 13
+            }
+        },
+        {
+            "id": 14,
+            "specialty_name": "Frontend Development",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSpecialty": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "specialty_id": 14
+            }
+        }
+    ],
+    "job_required_domains": [
+        {
+            "id": 19,
+            "domain_name": "Database Administration",
+            "createdAt": "2025-09-02T10:52:55.000Z",
+            "updatedAt": "2025-09-02T10:52:55.000Z",
+            "JobofferDomain": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "domain_id": 19
+            }
+        },
+        {
+            "id": 20,
+            "domain_name": "Software Development",
+            "createdAt": "2025-09-02T10:52:55.000Z",
+            "updatedAt": "2025-09-02T10:52:55.000Z",
+            "JobofferDomain": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "domain_id": 20
+            }
+        },
+        {
+            "id": 21,
+            "domain_name": "Backend Development",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferDomain": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "domain_id": 21
+            }
+        },
+        {
+            "id": 23,
+            "domain_name": "Frontend Development",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferDomain": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "domain_id": 23
+            }
+        },
+        {
+            "id": 24,
+            "domain_name": "API Development",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferDomain": {
+                "createdAt": "2025-09-02T10:52:56.000Z",
+                "updatedAt": "2025-09-02T10:52:56.000Z",
+                "joboffer_id": 3161,
+                "domain_id": 24
+            }
+        }
+    ]
+}
+
+////////////////////////emploitunsiei///////////
+{
+    "id": 3218,
+    "address_city": "Tunisie",
+    "address_country_code": "TN",
+    "address_country_label": "Tunisie",
+    "job_description": "Nous recrutons : Data Scientist – Analyste de bases de données\nVous êtes passionné(e) par les données et aimez en tirer du sens pour soutenir la stratégie d’une entreprise ? Rejoignez notre équipe !\nVos missions :\n\n\nRéaliser des analyses approfondies de b",
+    "job_posting_date": "2025-09-02T10:52:57.000Z",
+    "job_expiry_date": "2025-09-02T10:52:57.000Z",
+    "job_experience_level": "Junior",
+    "job_min_experience_years": 2,
+    "job_max_experience_years": 5,
+    "job_required_diploma": "Bac + 4",
+    "job_required_post_bac_years": 4,
+    "job_status": null,
+    "job_title": "Data Analyst",
+    "salary_currency": "TND",
+    "salary_min": 1300,
+    "salary_max": 1300,
+    "work_type_code": "FT",
+    "work_type_table": "Full Time",
+    "createdAt": "2025-09-02T10:52:57.000Z",
+    "updatedAt": "2025-09-02T10:52:57.000Z",
+    "company_id": 176,
+    "Company": {
+        "id": 176,
+        "company_name": "Unknown",
+        "createdAt": "2025-09-02T09:42:10.000Z",
+        "updatedAt": "2025-09-02T09:42:10.000Z"
+    },
+    "job_required_skills": [
+        {
+            "id": 1748,
+            "required_level": 1,
+            "skill_name": "R",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:55.000Z",
+            "updatedAt": "2025-09-02T10:52:55.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:57.000Z",
+                "updatedAt": "2025-09-02T10:52:57.000Z",
+                "joboffer_id": 3218,
+                "skill_id": 1748
+            }
+        },
+        {
+            "id": 1750,
+            "required_level": 1,
+            "skill_name": "Python",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:55.000Z",
+            "updatedAt": "2025-09-02T10:52:55.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:57.000Z",
+                "updatedAt": "2025-09-02T10:52:57.000Z",
+                "joboffer_id": 3218,
+                "skill_id": 1750
+            }
+        },
+        {
+            "id": 1797,
+            "required_level": 1,
+            "skill_name": "Pandas",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:57.000Z",
+            "updatedAt": "2025-09-02T10:52:57.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:57.000Z",
+                "updatedAt": "2025-09-02T10:52:57.000Z",
+                "joboffer_id": 3218,
+                "skill_id": 1797
+            }
+        },
+        {
+            "id": 1798,
+            "required_level": 1,
+            "skill_name": "NumPy",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:57.000Z",
+            "updatedAt": "2025-09-02T10:52:57.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T10:52:57.000Z",
+                "updatedAt": "2025-09-02T10:52:57.000Z",
+                "joboffer_id": 3218,
+                "skill_id": 1798
+            }
+        }
+    ],
+    "job_required_specialties": [
+        {
+            "id": 13,
+            "specialty_name": "Backend Development",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSpecialty": {
+                "createdAt": "2025-09-02T10:52:57.000Z",
+                "updatedAt": "2025-09-02T10:52:57.000Z",
+                "joboffer_id": 3218,
+                "specialty_id": 13
+            }
+        },
+        {
+            "id": 19,
+            "specialty_name": "Data Science / ML Engineering",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSpecialty": {
+                "createdAt": "2025-09-02T10:52:57.000Z",
+                "updatedAt": "2025-09-02T10:52:57.000Z",
+                "joboffer_id": 3218,
+                "specialty_id": 19
+            }
+        }
+    ],
+    "job_required_domains": [
+        {
+            "id": 20,
+            "domain_name": "Software Development",
+            "createdAt": "2025-09-02T10:52:55.000Z",
+            "updatedAt": "2025-09-02T10:52:55.000Z",
+            "JobofferDomain": {
+                "createdAt": "2025-09-02T10:52:57.000Z",
+                "updatedAt": "2025-09-02T10:52:57.000Z",
+                "joboffer_id": 3218,
+                "domain_id": 20
+            }
+        },
+        {
+            "id": 21,
+            "domain_name": "Backend Development",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferDomain": {
+                "createdAt": "2025-09-02T10:52:57.000Z",
+                "updatedAt": "2025-09-02T10:52:57.000Z",
+                "joboffer_id": 3218,
+                "domain_id": 21
+            }
+        },
+        {
+            "id": 26,
+            "domain_name": "Machine Learning",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferDomain": {
+                "createdAt": "2025-09-02T10:52:57.000Z",
+                "updatedAt": "2025-09-02T10:52:57.000Z",
+                "joboffer_id": 3218,
+                "domain_id": 26
+            }
+        },
+        {
+            "id": 31,
+            "domain_name": "Data Science",
+            "createdAt": "2025-09-02T10:52:57.000Z",
+            "updatedAt": "2025-09-02T10:52:57.000Z",
+            "JobofferDomain": {
+                "createdAt": "2025-09-02T10:52:57.000Z",
+                "updatedAt": "2025-09-02T10:52:57.000Z",
+                "joboffer_id": 3218,
+                "domain_id": 31
+            }
+        }
+    ]
+}
+
+///////////////////tanitjobs////////////////////
+{
+    "id": 3519,
+    "address_city": "Tunis",
+    "address_country_code": "TN",
+    "address_country_label": "Tunisie",
+    "job_description": "Septeo, éditeur de logiciels de référence en Europe, est un groupe qui grandit vite. Qui se transforme. En 10 ans, nous sommes devenus un des leaders européens de la tech, une référence dans l’édition de logiciels. Cette évolution, c’est le fruit d’un col",
+    "job_posting_date": "2025-09-02T11:20:19.000Z",
+    "job_expiry_date": "2025-04-08T23:00:00.000Z",
+    "job_experience_level": "Mid",
+    "job_min_experience_years": 5,
+    "job_max_experience_years": 10,
+    "job_required_diploma": "",
+    "job_required_post_bac_years": null,
+    "job_status": null,
+    "job_title": "Développeur Fullstack Java Senior",
+    "salary_currency": null,
+    "salary_min": null,
+    "salary_max": null,
+    "work_type_code": null,
+    "work_type_table": "CDI, \t\t\t\tTemps plein",
+    "createdAt": "2025-09-02T11:20:19.000Z",
+    "updatedAt": "2025-09-02T11:20:19.000Z",
+    "company_id": 153,
+    "Company": {
+        "id": 153,
+        "company_name": "Septeo",
+        "createdAt": "2025-09-02T08:39:38.000Z",
+        "updatedAt": "2025-09-02T08:39:38.000Z"
+    },
+    "job_required_skills": [
+        {
+            "id": 1771,
+            "required_level": 1,
+            "skill_name": "Java",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T11:20:19.000Z",
+                "updatedAt": "2025-09-02T11:20:19.000Z",
+                "joboffer_id": 3519,
+                "skill_id": 1771
+            }
+        },
+        {
+            "id": 2028,
+            "required_level": 1,
+            "skill_name": "informatique",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:56:22.000Z",
+            "updatedAt": "2025-09-02T10:56:22.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T11:20:19.000Z",
+                "updatedAt": "2025-09-02T11:20:19.000Z",
+                "joboffer_id": 3519,
+                "skill_id": 2028
+            }
+        },
+        {
+            "id": 2100,
+            "required_level": 1,
+            "skill_name": "developpement",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:56:22.000Z",
+            "updatedAt": "2025-09-02T10:56:22.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T11:20:19.000Z",
+                "updatedAt": "2025-09-02T11:20:19.000Z",
+                "joboffer_id": 3519,
+                "skill_id": 2100
+            }
+        },
+        {
+            "id": 2149,
+            "required_level": 1,
+            "skill_name": "Fullstack",
+            "skill_type_code": "TECH",
+            "createdAt": "2025-09-02T10:56:24.000Z",
+            "updatedAt": "2025-09-02T10:56:24.000Z",
+            "JobofferSkill": {
+                "createdAt": "2025-09-02T11:20:19.000Z",
+                "updatedAt": "2025-09-02T11:20:19.000Z",
+                "joboffer_id": 3519,
+                "skill_id": 2149
+            }
+        }
+    ],
+    "job_required_specialties": [
+        {
+            "id": 13,
+            "specialty_name": "Backend Development",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferSpecialty": {
+                "createdAt": "2025-09-02T11:20:19.000Z",
+                "updatedAt": "2025-09-02T11:20:19.000Z",
+                "joboffer_id": 3519,
+                "specialty_id": 13
+            }
+        }
+    ],
+    "job_required_domains": [
+        {
+            "id": 20,
+            "domain_name": "Software Development",
+            "createdAt": "2025-09-02T10:52:55.000Z",
+            "updatedAt": "2025-09-02T10:52:55.000Z",
+            "JobofferDomain": {
+                "createdAt": "2025-09-02T11:20:19.000Z",
+                "updatedAt": "2025-09-02T11:20:19.000Z",
+                "joboffer_id": 3519,
+                "domain_id": 20
+            }
+        },
+        {
+            "id": 21,
+            "domain_name": "Backend Development",
+            "createdAt": "2025-09-02T10:52:56.000Z",
+            "updatedAt": "2025-09-02T10:52:56.000Z",
+            "JobofferDomain": {
+                "createdAt": "2025-09-02T11:20:19.000Z",
+                "updatedAt": "2025-09-02T11:20:19.000Z",
+                "joboffer_id": 3519,
+                "domain_id": 21
+            }
+        }
+    ]
+}

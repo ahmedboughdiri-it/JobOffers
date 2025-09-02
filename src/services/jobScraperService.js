@@ -264,21 +264,27 @@ async function scrapeKeejob(listingUrl) {
           );
           await new Promise(r => setTimeout(r, Math.random() * 2000 + 1000));
 
-          // Inside page.evaluate()
-const html = await jobPage.evaluate(() => {
-  const title = document.querySelector(".page-title")?.outerHTML || "";
+         const html = await jobPage.evaluate(() => {
+  // Title
+  const title = document.querySelector("h1.text-2xl, h1.text-3xl")?.outerHTML || "";
 
-  // Example: find the "Entreprise" block by scanning h2s
-  const entrepriseHeading = [...document.querySelectorAll("h2")]
-    .find(h => h.textContent.includes("Entreprise"));
-  const entrepriseBlock = entrepriseHeading
-    ? entrepriseHeading.parentElement.outerHTML
-    : "";
+  // Find section content by heading text
+  function getSectionByHeading(text) {
+    const heading = [...document.querySelectorAll("h2")]
+      .find(h => h.textContent.trim().includes(text));
+    if (!heading) return "";
+    const sectionWrapper = heading.closest("div")?.parentElement; // go to container
+    return sectionWrapper ? sectionWrapper.outerHTML : "";
+  }
 
-  const details = document.querySelector(".job-description")?.outerHTML || "";
+  const entrepriseBlock = getSectionByHeading("Entreprise");
+  const detailsBlock = getSectionByHeading("Détails de l'annonce");
+  const descriptionBlock = getSectionByHeading("Description de l'annonce");
 
-  return title + entrepriseBlock + details;
+  return title + entrepriseBlock + detailsBlock + descriptionBlock;
 });
+
+
 
 
           await Rawjobdata.create({ raw_html: html, url: link });
